@@ -5,14 +5,14 @@ public class AllPages {
     public AllPages() {
     }
     private HomePage homePage;
-    private LoginPage loginPage;
+    private GirisPage girisPage;
 
 
-    public LoginPage loginPage() {
-        if (loginPage == null) {
-            loginPage = new LoginPage();
+    public GirisPage girisPage() {
+        if (girisPage == null) {
+            girisPage = new GirisPage();
         }
-        return loginPage;
+        return girisPage;
     }
 
     public HomePage homePage() {
